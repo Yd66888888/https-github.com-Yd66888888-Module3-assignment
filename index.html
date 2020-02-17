@@ -72,13 +72,10 @@
       </div>
 
       <div class="closing-image">
-      
-      <picture>
-          <img srcset="4-400.jpg 400w,
-             4-1200.jpg 1200w,
-     sizes="(max-width: 400px) 360px,
-            (max-width: 1200px) 1160px,"
-     src="4-1200.jpg" alt="Harry Potter cover.">
+        <picture>
+          <source media="(max-width: 1199px)" srcset="4-400.jpg">
+          <source media="(min-width: 1200px)" srcset="4-1200.jpg">
+          <img src="4-1200.jpg" alt="Harry Potter cover.">
         </picture>
 
         <!-- insert picture element with an image that is appropriate for large devices and one that is cropped to show an important detail for mobile devices (see the Responsive Images lesson for an example)-->
