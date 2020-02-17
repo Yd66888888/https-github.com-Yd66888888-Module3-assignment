@@ -1,0 +1,22 @@
+html {
+font-family: 'Varela Round', sans-serif;
+background-color: green;
+}
+
+body {
+  background-color: yellow;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 25px 25px 25px;
+}
+
+h1 {
+      font-size: 39px;
+      text-align: center;
+      padding:  25px 25px 0px;
+}
+
+
+form {
+    color: blue
+}

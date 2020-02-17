@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Band/Movie Page</title><!--rename this appropriately-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+    <!--insert a link to the stylesheet provided in the root folder you downloaded-->
+  </head>
+
+  <body>
+    <header>
+      <h1>Harry Potter</h1>
+      <img src="logo120.jpg" alt="Harry Potter logo.">
+
+        <!-- insert a headline for your favorite band or movie --></h1>
+      <!-- insert <img> element, link to the a small
+          version of the band/movie logo. You can either find an existing logo for the band/movie or create one of your own-->
+
+    </header>
+
+    <main>
+      <article>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1NmxkGY5fxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- find a video you would like to embed from youtube. click 'share' beneath the video. select the 'embed' tab and copy/paste iframe code from youtube -->
+
+        <h2>“You're a wizard, Harry.” </h2>
+
+        <p>The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).</p>
+
+        <p>Harry Potter is the kind of timeless literary achievement that comes around once in a lifetime. <br>
+          — Lorenzo di Bonaventura, Warner Bros.</p>
+
+        <p>Click on the images below to find more information about the band/movie.</p>
+      </article>
+
+      <div class="further-info">
+
+        <!--insert an href within the link below that references the band/movie's actual website-->
+        <a href="https://en.wikipedia.org/wiki/Harry_Potter">
+          <figure>
+            <img src="1-400.jpg" alt="Harry Potter cover." >
+            <figcaption>About Us</figcaption>
+          </figure>
+            <!-- insert appropriate images with srcsets and sizes.
+            create figure and figcaption elements to make an image caption that says 'About Us'-->
+        </a>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called tour.html or screens.html if you are creating a movie site. this new page should include, at a minimum, an HTML table that gives your band's tour dates and locations or locations and times where your movie is screening-->
+        <a href="tour.html">
+          <figure>
+            <img src="2-400.jpg" alt="Harry Potter cover." >
+            <figcaption>How to watch it?</figcaption>
+          </figure>
+          <!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+        </a>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called fans.html. this new page should include, at a minimum, an HTML form that would allow a user to enter their personal information to sign up for a fan club for your band or movie. Don't forget a Submit button! Note that these forms don't have to actually collect the information that is entered. This would require technology that is beyond the scope of this course-->
+        <a href="fans.html">
+            <figure>
+              <img src="3-400.jpg" alt="Harry Potter fans." >
+              <figcaption>Join the fanclub!</figcaption>
+            </figure>
+
+          <!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'Join the fanclub!'-->
+        </a>
+
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="closing-image">
+      
+      <picture>
+          <img srcset="4-400.jpg 400w,
+             4-1200.jpg 1200w,
+     sizes="(max-width: 400px) 360px,
+            (max-width: 1200px) 1160px,"
+     src="4-1200.jpg" alt="Harry Potter cover.">
+        </picture>
+
+        <!-- insert picture element with an image that is appropriate for large devices and one that is cropped to show an important detail for mobile devices (see the Responsive Images lesson for an example)-->
+      </div>
+
+    </main>
+  </body>
+</html>
